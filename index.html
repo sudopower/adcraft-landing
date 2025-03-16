@@ -137,7 +137,33 @@
         <div class="container mx-auto text-center">
             <h2 class="text-3xl font-bold mb-8">Schedule a Free Demo</h2>
             <p class="mb-8">See AdCraft in action and transform your social media advertising.</p>
-            <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">Book Your Demo Now</a>
+            <form action="https://getform.io/f/agdpnpjb" method="POST" enctype="multipart/form-data" class="max-w-lg mx-auto bg-gray-700 p-6 rounded-lg">
+                <div class="mb-4">
+                    <label for="brand-name" class="block text-left text-gray-300 font-semibold mb-2">Brand Name</label>
+                    <input type="text" id="brand-name" name="brand_name" class="w-full p-3 rounded-lg bg-gray-800 text-white" required>
+                </div>
+                <div class="mb-4">
+                    <label for="category" class="block text-left text-gray-300 font-semibold mb-2">Category</label>
+                    <input type="text" id="category" name="category" class="w-full p-3 rounded-lg bg-gray-800 text-white" required>
+                </div>
+                <div class="mb-4">
+                    <label for="product-image" class="block text-left text-gray-300 font-semibold mb-2">Product Image (JPEG)</label>
+                    <input type="file" id="product-image" name="product_image" accept="image/jpeg" class="w-full p-3 rounded-lg bg-gray-800 text-white" required>
+                </div>
+                <div class="mb-4">
+                    <label for="target-audience" class="block text-left text-gray-300 font-semibold mb-2">Target Audience</label>
+                    <input type="text" id="target-audience" name="target_audience" class="w-full p-3 rounded-lg bg-gray-800 text-white" required>
+                </div>
+                <div class="mb-4">
+                    <label for="call-to-action-text" class="block text-left text-gray-300 font-semibold mb-2">Call to Action (Text)</label>
+                    <input type="text" id="call-to-action-text" name="call_to_action_text" class="w-full p-3 rounded-lg bg-gray-800 text-white" required>
+                </div>
+                <div class="mb-4">
+                    <label for="call-to-action-image" class="block text-left text-gray-300 font-semibold mb-2">Call to Action (JPEG Image)</label>
+                    <input type="file" id="call-to-action-image" name="call_to_action_image" accept="image/jpeg" class="w-full p-3 rounded-lg bg-gray-800 text-white" required>
+                </div>
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full w-full">Submit</button>
+            </form>
         </div>
     </section>
 
